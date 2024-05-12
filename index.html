@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de replicacion Ucompensar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="primer-seccion">
+            <div class="logo">
+                <a href="https://ucompensar.edu.co/">
+                    <img src="imagenes/logocompensar.png" alt="Logo de Compensar">
+                </a>
+            </div>
+            <nav class="menu-navegacion">
+                <ul>
+                    <li><a href="https://ucompensar.edu.co/graduados/">Graduados</a></li>
+                    <li><a href="https://ucompensar.edu.co/nuestros-estudiantes">Estudiantes</a></li>
+                    <li><a href="https://academico.ucompensar.edu.co:8091/academusoft/academico/inicioSeguroAspirante.jsp">Estado de Admisión</a></li>
+                    <li><a href="https://ucompensar.edu.co/reingresos/">Reingresos</a></li>
+                    <li><a href="https://estudiantes.ucompensar.edu.co:8081/ucompensarPolLTD/">Pago en Línea</a></li>
+                    <li><a href="https://login.microsoftonline.com/4bf38ea2-832d-4552-b508-421570da43ff/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=AC731058926B00C8572B1E84E25929007739EDBDDD166676%2D36E03B85BD61C00D678C3282AB1E9CAF8FA2699AB5F326A4DD58BB7707C53232&redirect%5Furi=https%3A%2F%2Funipanamericanaeduco%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=5fc327a1%2Dd0c6%2D5000%2D69ab%2Da08671d4d9dc&sso_reload=true">Aplicativos</a></li>
+                    <li><a href="https://emisora.ucompensar.edu.co/?_gl=1%2A15dykwq%2A_ga%2AMTkxMzgxMTg1Ni4xNzE1NDUxODI5%2A_ga_XGQ6YMBJF1%2AMTcxNTQ3MDgzNy4yLjEuMTcxNTQ3MDkzNi4yMS4wLjA.">Emisora</a></li>
+                    <li><a href="https://ucompensar.edu.co/blog/">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="segunda-seccion">
+            <nav class="segundo-menu">
+                <ul>
+                    <li><a href="#">La institución</a></li>
+                    <li><a href="#">Estudian con Nosotros</a></li>
+                    <li><a href="#">Facultades</a></li>
+                    <li><a href="#">Programas</a></li>
+                    <li><a href="#">Nuevo Campus</a></li>
+                    <li><a href="#">SENA</a></li>
+                    <li><a href="#">Zona Financiera</a></li>
+                    <li><a href="#">EdTech</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <input type="text" placeholder="Buscar...">
+                <button><img src="imagenes/search.png" alt="Buscar"></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Aquí va el contenido principal -->
+       <section>
+    <div class="columna-container">
+        <div class="columna columna-1">
+            <h2>Título de la sección</h2>
+            <p>Descripción de la sección.</p>
+            <a href="link_al_formulario" class="boton">¡Inscríbete aquí!</a>
+            <table>
+            <tr>
+                <td>¿Eres estudiante Ucompensar?</td>
+                <td>
+                    <select name="estudiante">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" name="apellido"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Número de contacto:</td>
+                <td><input type="text" name="telefono"></td>
+            </tr>
+            <tr>
+                <td>Número de documento:</td>
+                <td><input type="text" name="documento"></td>
+            </tr>
+            <tr>
+                <td>Canal preferido de contacto:</td>
+                <td>
+                    <select name="canal_contacto">
+                        <option value="email">Email</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="telefono">Teléfono</option>
+                        <option value="sms">SMS</option>
+                        <option value="todos">Todos</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>¿Cómo se enteró?</td>
+                <td>
+                    <select name="entero">
+                        <option value="buscadores">Buscadores</option>
+                        <option value="publicidad">Publicidad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="politica"> Acepto la Política de Protección de Datos Personales.</td>
+            </tr>
+        </table>
+        <button type="submit">Enviar</button>
+    </div>
+    <div class="columna columna-2">
+            <img src="imagenes/imapagina.png" alt="Descripción de la imagen">
+        </div>
+    </div>
+</section>
+
+        <section>
+    <h2 class="titulo-seccion">Título de la Segunda Sección</h2>
+    <div class="fila">
+        <div class="columna">
+            <div class="contenido">
+                <p>Técnica Profesional en</p>
+                <p>PROGRAMACIÓN DE APLICACIONES DE SOFTWARE</p>
+				<p></p>
+                <p>Resolución 9059 del 28 de agosto de 2019</p>
+                <p>Años de vigencia: 7 años</p>
+                <p>SNIES: 108334</p>
+				<p></p>
+				<p></p>
+                <a href="documentos/ProgramaINGENIERIA-DE-SOFTWARE-BOGOTA.pdf">Ver tarifas de créditos aquí</a>
+            </div>
+        </div>
+        <div class="columna">
+            <div class="contenido">
+               <p>Tecnología en </p>
+                <p>DESARROLLO DE APLICACIONES</p>
+				<p>WEB Y MÓVILES</p>
+				<p></p>
+                <p>Resolución 9057 del 28 de agosto de 2019</p>
+                <p>Años de vigencia: 7 años</p>
+                <p>SNIES: 108335</p>
+				<p></p>
+				<p></p>
+                <a href="documentos/ProgramaINGENIERIA-DE-SOFTWARE-BOGOTATEC.PDF">Ver tarifas de créditos aquí</a>
+            </div>
+        </div>
+        <div class="columna">
+            <div class="contenido">
+               <p>Profesional en</p>
+                <p>INGENIERÍA DE SOFTWARE</p>
+				<p></p>
+                <p>Resolución 9058 del 28 de agosto de 2019</p>
+                <p>Años de vigencia: 7 años</p>
+                <p>SNIES: 109130</p>
+				<p></p>
+				<p></p>
+                <a href="documentos/ProgramaINGENIERIA-DE-SOFTWARE-BOGOTAPRO">Ver tarifas de créditos aquí</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <h2 class="titulo-seccion">Título de la tercera Sección</h2>
+    <section class="tercera-seccion">
+    
+    <div class="fila">
+        <div class="columna">
+            <div class="contenido">
+                <p>* Ingeniero de calidad</p>
+                <p>* Ingeniero de requerimientos</p>
+                <p>* Gerente de proyectos de software</p>
+                <p>* Líder de desarrollo de software</p>
+				<p>* Desarrollador de software web</p>
+                <p>* Integrador de soluciones web y móviles</p>
+                <p>* Desarrollador de aplicaciones móviles</p>
+                <p>* Líder Técnico de pruebas.</p>
+            </div>
+        </div>
+        <div class="columna">
+            <div class="contenido">
+                <img src="imagenes/imapagi3.png" alt="Imagen 2">
+            </div>
+        </div>
+       <div class="columna">
+            <div class="contenido">
+                <img src="imagenes/imapagi2.png" alt="Imagen 1">
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+    <div class="footer-columna">
+        <div class="logo-footer">
+            <img src="imagenes/logocompensar.png" alt="Logo pequeño">
+        </div>
+        <p>Fundación Universitaria Compensar P.J. Resolución 23635 del 23 diciembre 1981 | 12455 del 9 de julio 2020. – VIGILADA MINEDUCACIÓN</p>
+        <p>Para requerimientos de autoridades, tutelas o notificaciones judiciales por favor dirigirse al correo: <a href="mailto:notificacionesjudiciales@ucompensar.edu.co">notificacionesjudiciales@ucompensar.edu.co</a></p>
+    </div>
+    <div class="footer-columna">
+        <div class="redes-sociales">
+            <p> Bogota </P>
+			<br></br>
+			<p> Sede Principal </P>
+			<p> Avenida (Calle) 32 No. 17 – 30 </P>
+			<p> Telefono: 6013380666 </P>
+        </div>
+    </div>
+</footer>
+
+    <script src="scripts/script.js"></script>
+</div>	
+</body>
+</html>
